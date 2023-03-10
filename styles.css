@@ -1,0 +1,51 @@
+body {
+  padding: 0;
+  margin: 0;
+  color: #1b1b1b;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: min(768px, calc(100vw - 40px));
+  padding: 20px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.container textarea {
+  width: 100%;
+  min-height: 30vh;
+  border: 1px solid #555555;
+  resize: vertical;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.container label {
+  width: 100%;
+  text-align: left;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.container .controls {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+
+.container .controls button {
+  margin-left: 8px;
+  border: 0;
+  background-color: #555555;
+  color: #eeeeee;
+  padding: 8px 16px;
+}

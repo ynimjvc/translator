@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Translator</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div class="container">
+    <p>
+      1. It has been brought to leadership's attention that some individuals are using language that is inappropriate in the work environment. Due to complaints from some of the more sensitive members, this conduct will no longer be tolerated.
+    </p>
+    <p>
+      2. Leadership does, however, realize the importance of open, honest communication between members. With this in mind, leadership has compiled the following substitution list. It is imperative that all members understand and memorize the list so proper exchange of information and ideas can flourish.
+    </p>
+
+    <label>
+      From <span id="source">2</span>
+    </label>
+    <textarea id="input"></textarea>
+    <label>
+      To <span id="target">1</span>
+    </label>
+    <textarea id="output"></textarea>
+
+    <div class="controls">
+      <button id="switch">
+        Switch
+      </button>
+      <button id="translate">
+        Translate
+      </button>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
